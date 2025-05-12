@@ -1,10 +1,12 @@
 import styles from './Main.module.scss'
+import stylesCommon from 'src/common/styles/common.module.scss'
 import {TextBlock} from "../../common/TextBlock/TextBlock"
 import {Header} from "../../common/Header/Header"
+import clsx from 'clsx'
 
 export const Main = () => {
   return (
-    <div className={styles.main}>
+    <div className={clsx(styles.main, stylesCommon.darkBlueBlock)}>
       <TextBlock>
         Компания начала свою работу в 2009 году и стала одним из первых операторов, который предлагал заключать пари на
         результат спортивных мероприятий в

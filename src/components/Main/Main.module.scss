@@ -1,11 +1,6 @@
 @use 'src/common/styles/mixins';
 
 .main {
-    background: #003266;
-    padding: 24px 12px;
-    border-radius: 12px;
-    @include mixins.flex($direction: column);
-    gap: 24px;
 
     .table {
         width: 100%;

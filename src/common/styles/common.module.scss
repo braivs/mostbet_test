@@ -1,9 +1,9 @@
 @use 'src/common/styles/mixins';
 
-.app {
-    background: #0A519E;
-    height: 100%;
-    padding: 12px;
+.darkBlueBlock {
+    background: #003266;
+    padding: 24px 12px;
+    border-radius: 12px;
     @include mixins.flex($direction: column);
     gap: 24px;
 }
