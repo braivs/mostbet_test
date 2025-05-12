@@ -6,4 +6,29 @@
     border-radius: 12px;
     @include mixins.flex($direction: column);
     gap: 24px;
+
+    .table {
+        width: 100%;
+        border-collapse: collapse;
+
+        td {
+            border: 1px solid #959596;
+            padding: 16px;
+            vertical-align: top;
+            line-height: 18px;
+            font-weight: bold;
+            color: #FFFFFF;
+            font-size: 12px;
+        }
+
+        a {
+            color: #FFBC00;
+            text-decoration: none;
+            font-weight: bold;
+
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
 }
