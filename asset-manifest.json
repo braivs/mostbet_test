@@ -1,16 +1,18 @@
 {
   "files": {
-    "main.css": "/mostbet_test/static/css/main.a0577741.css",
-    "main.js": "/mostbet_test/static/js/main.8ced65cc.js",
+    "main.css": "/mostbet_test/static/css/main.2898afff.css",
+    "main.js": "/mostbet_test/static/js/main.154aafc9.js",
     "static/js/453.c32fb762.chunk.js": "/mostbet_test/static/js/453.c32fb762.chunk.js",
     "static/media/Oswald.ttf": "/mostbet_test/static/media/Oswald.7cecd0da606d25b0905d.ttf",
+    "static/media/bounty_hunter_1.png": "/mostbet_test/static/media/bounty_hunter_1.a1ff004ef809ad8f4146.png",
+    "static/media/money.png": "/mostbet_test/static/media/money.ad918397ec24d7702824.png",
     "index.html": "/mostbet_test/index.html",
-    "main.a0577741.css.map": "/mostbet_test/static/css/main.a0577741.css.map",
-    "main.8ced65cc.js.map": "/mostbet_test/static/js/main.8ced65cc.js.map",
+    "main.2898afff.css.map": "/mostbet_test/static/css/main.2898afff.css.map",
+    "main.154aafc9.js.map": "/mostbet_test/static/js/main.154aafc9.js.map",
     "453.c32fb762.chunk.js.map": "/mostbet_test/static/js/453.c32fb762.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a0577741.css",
-    "static/js/main.8ced65cc.js"
+    "static/css/main.2898afff.css",
+    "static/js/main.154aafc9.js"
   ]
 }
