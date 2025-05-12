@@ -1,0 +1,20 @@
+.readyToGame {
+    position: relative;
+    height: 260px;
+    padding: 0;
+    width: 100%;
+
+    .rectangle_6926, .rectangle_6925, .money, .bounty_hunter_1 {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+
+    .rectangle_6926 {
+        border-radius: 0 0 12px 0;
+    }
+
+    .rectangle_6925 {
+        border-radius: 0 12px 12px 0;
+    }
+}
