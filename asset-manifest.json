@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/mostbet_test/static/css/main.aa48fa5b.css",
-    "main.js": "/mostbet_test/static/js/main.7ec49b2b.js",
+    "main.css": "/mostbet_test/static/css/main.a0577741.css",
+    "main.js": "/mostbet_test/static/js/main.8ced65cc.js",
     "static/js/453.c32fb762.chunk.js": "/mostbet_test/static/js/453.c32fb762.chunk.js",
+    "static/media/Oswald.ttf": "/mostbet_test/static/media/Oswald.7cecd0da606d25b0905d.ttf",
     "index.html": "/mostbet_test/index.html",
-    "main.aa48fa5b.css.map": "/mostbet_test/static/css/main.aa48fa5b.css.map",
-    "main.7ec49b2b.js.map": "/mostbet_test/static/js/main.7ec49b2b.js.map",
+    "main.a0577741.css.map": "/mostbet_test/static/css/main.a0577741.css.map",
+    "main.8ced65cc.js.map": "/mostbet_test/static/js/main.8ced65cc.js.map",
     "453.c32fb762.chunk.js.map": "/mostbet_test/static/js/453.c32fb762.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.aa48fa5b.css",
-    "static/js/main.7ec49b2b.js"
+    "static/css/main.a0577741.css",
+    "static/js/main.8ced65cc.js"
   ]
 }
