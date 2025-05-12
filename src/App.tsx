@@ -5,6 +5,7 @@ import {Main} from "./components/Main/Main"
 import 'src/common/styles/index.scss'
 import {Miracles} from "./components/Miracle/Miracles"
 import {Header} from "./components/Header/Header"
+import {Footer} from "./components/Footer/Footer"
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Header />
       <Main/>
       <Miracles/>
+      <Footer/>
     </div>
   );
 }

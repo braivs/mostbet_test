@@ -7,3 +7,9 @@
     @include mixins.flex($direction: column);
     gap: 24px;
 }
+
+.headerFooter {
+    padding: 24px 0;
+    width: 100%;
+    @include mixins.flex($direction: column,  $alignItems: center);
+}

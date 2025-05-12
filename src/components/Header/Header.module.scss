@@ -1,9 +1,6 @@
 @use 'src/common/styles/mixins';
 
 .header {
-    padding: 24px 0;
-    width: 100%;
-    @include mixins.flex($direction: column,  $alignItems: center);
 
     img {
         margin-bottom: 24px;
