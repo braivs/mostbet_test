@@ -1,0 +1,35 @@
+@use 'src/common/styles/mixins';
+
+.header {
+    padding: 24px 0;
+    width: 100%;
+    @include mixins.flex($direction: column,  $alignItems: center);
+
+    img {
+        margin-bottom: 24px;
+    }
+
+    .buttonsGroup {
+        @include mixins.flex();
+        gap: 8px;
+
+        button {
+            padding: 11px 24px;
+            border-radius: 11px;
+            border: none;
+            color: white;
+            text-transform: uppercase;
+            font-weight: bold;
+            font-family: 'Oswald', sans-serif;
+            letter-spacing: 0.56px;
+        }
+
+        button:nth-child(1) {
+           background-color: #4892E2;
+        }
+
+        button:nth-child(2) {
+            background-color: #FA6B00;
+        }
+    }
+}

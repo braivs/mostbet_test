@@ -4,7 +4,7 @@ type Props = {
   children: string;
 }
 
-export const Header = ({children}: Props) => {
+export const TextHeader = ({children}: Props) => {
   return (
     <div className={styles.header}>
       {children}

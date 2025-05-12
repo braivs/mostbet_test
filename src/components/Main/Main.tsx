@@ -1,8 +1,9 @@
 import styles from './Main.module.scss'
 import stylesCommon from 'src/common/styles/common.module.scss'
 import {TextBlock} from "../../common/TextBlock/TextBlock"
-import {Header} from "../../common/Header/Header"
+import {TextHeader} from "../../common/Header/TextHeader"
 import clsx from 'clsx'
+import {Header} from "../Header/Header"
 
 export const Main = () => {
   return (
@@ -22,9 +23,9 @@ export const Main = () => {
         постоянно оставаться на связи с любимой компанией. Место жительства пользователя сервиса при этом не имеет
         никакого значения.
       </TextBlock>
-      <Header>
+      <TextHeader>
         Обзор официального сайта Мостбет
-      </Header>
+      </TextHeader>
       <div>
         <table className={styles.table}>
           <tbody>

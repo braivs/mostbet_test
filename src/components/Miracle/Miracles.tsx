@@ -1,14 +1,14 @@
 import stylesCommon from 'src/common/styles/common.module.scss'
 import styles from './Miracles.module.scss'
-import {Header} from "../../common/Header/Header"
+import {TextHeader} from "../../common/Header/TextHeader"
 import {TextBlock} from "../../common/TextBlock/TextBlock"
 
 export const Miracles = () => {
   return (
     <div className={stylesCommon.darkBlueBlock}>
-      <Header>
+      <TextHeader>
         Как найти актуальное зеркало Mostbet на сегодня?
-      </Header>
+      </TextHeader>
       <TextBlock>
         Новички, которые в первый раз столкнулись с блокировкой официального сайта, могут потратить огромное количество
         времени на поиски дубля. Опытные
